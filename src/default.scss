@@ -1,0 +1,45 @@
+html{
+    font-size: 8px;
+}
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html,
+body,
+#root,
+.app,
+.height{
+    height: 100%;
+}
+
+*, ::before ::after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a, :hover{
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.main{
+    max-width: 1250px;
+    width: 100%;
+    height: calc(100% - 10rem);
+    padding: 0 10px;
+    margin: 0 auto;
+}
